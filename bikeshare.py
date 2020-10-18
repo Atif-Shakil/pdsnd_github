@@ -59,7 +59,7 @@ def get_filters():
             print('\nException occurred.\n')
             break
 
-    print('-'*40)
+    print('-'*30)
     return city, month, day
 
 
@@ -124,7 +124,7 @@ def time_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*30)
 
 
 def station_stats(df):
@@ -148,7 +148,7 @@ def station_stats(df):
     df.pop('Combination')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*30)
 
 
 def trip_duration_stats(df):
@@ -167,7 +167,7 @@ def trip_duration_stats(df):
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*30)
 
 
 def user_stats(df):
@@ -201,7 +201,7 @@ def user_stats(df):
         print('\nThe most ealiest birth year is:\n {}\nThe most recent birth year is:\n {}\nThe most common birth year is:\n {}'.format(earliest_year, recent_year, common_year))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-'*30)
 
 
 def main():
