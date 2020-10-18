@@ -12,7 +12,7 @@ days=['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday',
 
 def get_filters():
     """
-    Asks user to specify a city, month, and day to analyze.
+    Requests the user to specify a city, month, and day to analyze.
 
     Returns:
         (str) city - name of the city to analyze
