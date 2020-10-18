@@ -214,15 +214,15 @@ def main():
         trip_duration_stats(df)
         user_stats(df)
 
-        lower_index, upper_index = 0,5
+        lower_limit, upper_limit = 0,5
         while True:
             raw_data = input('\nWould you like to see 5 lines of the raw data? (yes/no)\n')
             if raw_data != 'yes':
                 break
             else:
-                print(df.iloc[lower_index:upper_index])
-                lower_index+=5
-                upper_index+=5
+                print(df.iloc[lower_limit:upper_limit])
+                lower_limit+=5
+                upper_limit+=5
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
