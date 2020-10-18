@@ -15,3 +15,8 @@ Use of Python to explore data related to bike share systems for three major citi
 ### Credits
 https://stackoverflow.com
 https://www.w3resource.com
+
+### Python Libraries Used
+* time
+* numpy
+* pandas
